@@ -1,6 +1,6 @@
 .nav-sec{
     padding: 0px 141px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .navbar{
 display: flex;
@@ -9,7 +9,7 @@ justify-content: center;
 align-items: center;
 gap: 186px;
 margin: 20px 140px;
-border: 1px solid;
+/* border: 1px solid; */
 }
 .school-bar{
 display: grid;
@@ -76,13 +76,16 @@ height: 62px;
     font-weight: 550;
     }
 .banner{
- display: grid;
+    position: static;
+    display: grid;
  grid-template-columns: repeat(2,1fr);
+ justify-content: space-around;
  text-align: center;
  margin: 16px 112px;
- gap: auto;
-  border: 1px solid;
-}
+ gap: 100px;
+  /* border: 1px solid; */
+  } 
+
 .banner-text{
     display: flex;
     flex-direction: column;
@@ -127,9 +130,111 @@ padding: 10px;
 gap: 10px;
    } 
    .banner-pic{
-   position: static;
-   height: auto;
-   width: auto;
-   }
-   
-    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .mid-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80;
+    padding: 60px 0px 60px 0px;
+ }
+.sc{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+    /* border: 1px solid; */
+}  
+.banner-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+} 
+.kinder-box{
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.h{
+    /* color: rgb(32, 32, 32); */
+    font-family: Quicksand;
+    font-size: 20.52px;
+    font-weight: 700;
+    text-align: center;
+}
+.p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 12.09px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.kinder-box a{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 12.09px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.element-box{
+    width: 367.8px;
+    height: 481.5px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    }
+.element-box a{
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 12.09px;
+    font-weight: 700;
+}   
+.middle-box{
+    width: 367.8px;
+    height: 476.78px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.middle-box a{
+    font-family: Quicksand;
+    font-size: 12.09px;
+    font-weight: 700;
+    color: rgb(135, 0, 255);
+}
+.btn{
+    margin: 80px auto;
+    display: flex;
+    gap: 10px;
+}
+.btn button{
+
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    width: 60px;
+    height: 60px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
