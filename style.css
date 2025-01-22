@@ -1,0 +1,67 @@
+.nav-sec{
+    padding: 0px 141px;
+}
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 186px;
+margin: 20px 140px;
+}
+.school-bar{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+position: static;
+width: 202px;
+height: 62px;   
+}
+.SCHOOL{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    margin: auto;
+    text-align: left;
+    
+}
+.nav-btn>a{
+    text-decoration: none
+}
+.nav-btn{
+    display: flex;
+    gap: 32px;
+}
+.Home{
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+.About{
+    color: rgb(1, 172, 253);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.Facilities{
+    color: rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Admission{
+    color: rgb(93, 88, 239);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Contact{
+    border: 1px;
+    width: 197px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 550;
+    }
