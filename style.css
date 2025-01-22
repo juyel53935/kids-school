@@ -1,5 +1,6 @@
 .nav-sec{
     padding: 0px 141px;
+    border: 1px solid;
 }
 .navbar{
 display: flex;
@@ -8,12 +9,13 @@ justify-content: center;
 align-items: center;
 gap: 186px;
 margin: 20px 140px;
+border: 1px solid;
 }
 .school-bar{
 display: grid;
 grid-template-columns: repeat(2,1fr);
 position: static;
-width: 202px;
+width: 161px;
 height: 62px;   
 }
 .SCHOOL{
@@ -23,15 +25,23 @@ height: 62px;
     font-weight: 700;
     margin: auto;
     text-align: left;
+    text-decoration: none;
+}
+.link{
+    display: inline-flex;
+    gap: 30px;
+}
+.link li{
+    list-style: none;
+}
+.link li a{
+    text-decoration: none;
     
 }
-.nav-btn>a{
-    text-decoration: none
+.link li a:hover{
+    color: rgb(84, 84, 6);
 }
-.nav-btn{
-    display: flex;
-    gap: 32px;
-}
+
 .Home{
     color: rgb(254, 163, 1);
     font-size: 20px;
@@ -65,3 +75,61 @@ height: 62px;
     font-size: 20px;
     font-weight: 550;
     }
+.banner{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ text-align: center;
+ margin: 16px 112px;
+ gap: auto;
+  border: 1px solid;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+}
+.Empower{
+    width: 512px;
+    height: 183px;
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+        }
+.Empowering{
+    color: rgb(254, 163, 1);
+}
+.towards{
+    color: rgb(1, 172, 253)
+}
+.courage-p{
+    width: 512px;
+    height: 50px;
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+   .btn-enroll{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+width: 157px;
+height: 50px;
+font-size: 20px;
+font-weight: 700;
+border: 1px;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+padding: 10px;
+gap: 10px;
+   } 
+   .banner-pic{
+   position: static;
+   height: auto;
+   width: auto;
+   }
+   
+    
