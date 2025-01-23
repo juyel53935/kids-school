@@ -94,8 +94,9 @@ height: 62px;
 .banner-text{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    /* margin: auto; */
+    gap: 40px;
+    justify-content: center;
+    margin: auto;
 }
 .Empower{
     width: 512px;
@@ -451,6 +452,7 @@ footer{
         padding: 0px;
         gap: 10px;
         margin: 0px auto;
+        border: 0.5px solid rgb(254, 163, 1);
     }
     .Contact{
         display: none;
