@@ -7,7 +7,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 186px;
+gap: 160px;
 margin: 20px 140px;
 padding-left: 150px;
 /* border: 1px solid; */
@@ -174,7 +174,7 @@ gap: 10px;
 } 
 .kinder-box{
     width: 367.8px;
-    height: 476.78px;
+    height: 350.78px;
     box-sizing: border-box;
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
@@ -204,7 +204,7 @@ gap: 10px;
 }
 .element-box{
     width: 367.8px;
-    height: 481.5px;
+    height: 350.5px;
     box-sizing: border-box;
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
@@ -219,7 +219,7 @@ gap: 10px;
 }   
 .middle-box{
     width: 367.8px;
-    height: 476.78px;
+    height: 350.78px;
     box-sizing: border-box;
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
@@ -436,7 +436,7 @@ footer{
     flex-direction: column;
     
 }
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:500px) {
     .nav-btn ul li a{display: none;}
     .navbar .menu{float: right;
     display: block;
@@ -478,6 +478,54 @@ footer{
             line-height: 18px;
         }
         .btn-enroll{ 
-            margin: 0px auto;
+            margin: 20px auto;
         }
-}
+        .sc{
+            font-size: 26px;
+            font-weight: 700;
+            width: 300px;
+            height: 33px;
+            margin: 50px auto;
+        }
+        .bg{
+            width: 400px;
+        }
+        .banner-2{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .btn{
+            margin: 20px auto;
+        }
+        .story{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .left{
+            display: none;}
+        
+         .st-width{
+            border-radius: 9.53px;
+            width: 173.09px;
+            height: 200.59px;
+         }   
+         .bg-2{gap: 20px;}
+         .right{
+            height: 420px;
+         }
+         .btn-last{
+            border-radius: 12px;
+            width: 134px;
+            height: 30px;
+         }
+         footer{ width: 400px;}
+         .foot{
+            flex-direction: column;
+            margin: 40px 20px;
+            gap: 20px;
+         }
+        .right-foot{
+            display: flex;
+            flex-direction: column;
+            padding-right: 30px;
+        }
+    }
