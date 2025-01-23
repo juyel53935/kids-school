@@ -88,15 +88,14 @@ height: 62px;
    /* border: 1px solid; */
    display: flex;
   justify-content: center;
-  gap: 100px;
+    gap: 100px;
   } 
 
 .banner-text{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    justify-content: center;
-    margin: auto;
+    justify-content: center;   
 }
 .Empower{
     width: 512px;
@@ -136,10 +135,10 @@ padding: 10px;
 gap: 10px;
    } 
    .banner-pic{
-   display: flex;
+   /* display: flex;
    justify-content: center;
-   align-items: center;
- }
+   align-items: center; */
+   }
  .mid-banner{
     display: flex;
     flex-direction: column;
@@ -453,7 +452,7 @@ footer{
         gap: 10px;
         margin: 0px auto;
         border: 0.5px solid rgb(254, 163, 1);
-    }
+            }
     .Contact{
         display: none;
     }
@@ -463,6 +462,9 @@ footer{
     .banner{
         flex-direction: column-reverse;
         gap: 30px;
+    } 
+    .banner-text{
+        align-items: center;
     }
     .Empower{
         text-align: center;
